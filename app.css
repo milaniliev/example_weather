@@ -22,6 +22,22 @@ h2 {
   border-bottom: 1px solid #363731;
 }
 
+#today {
+  text-align: center;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#conditions_today {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+
 .temp {
   font-family: sans-serif;
 }
@@ -31,24 +47,14 @@ h2 {
 }
 
 #temps {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-#today {
-  text-align: center;
-}
-
-#conditions_today {
-  width: 100px;
-  display: inline-block;
-}
 
 #temp_range {
-  width: 4em;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#temp_range > .temp {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
