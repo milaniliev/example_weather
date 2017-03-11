@@ -1,11 +1,23 @@
 h1 {
   font-family: serif;
-  font-size: 36px;
+  font-size: 48px;
   text-align: center;
 }
 
 h2 {
   font-family: serif;
   font-size: 36px;
+  text-align: center;
+}
+
+.temp {
+  font-family: sans-serif;
+}
+
+#current_temp {
+  font-size: 64px;
+}
+
+#today {
   text-align: center;
 }
