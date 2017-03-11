@@ -16,16 +16,18 @@ h2 {
 
 #current_temp {
   font-size: 64px;
-  display: inline-block;
 }
 
+#temps {
+  display: inline-block;
+}
 #today {
   text-align: center;
 }
 
 #conditions_today {
   width: 100px;
-    display: inline-block;
+  display: inline-block;
 }
 
 #temp_range {
