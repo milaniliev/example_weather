@@ -16,8 +16,24 @@ h2 {
 
 #current_temp {
   font-size: 64px;
+  display: inline-block;
 }
 
 #today {
   text-align: center;
+}
+
+#conditions_today {
+  width: 100px;
+    display: inline-block;
+}
+
+#temp_range {
+  width: 6em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#temp_range > .temp {
+  display: inline-block;
 }
