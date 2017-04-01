@@ -1,0 +1,1 @@
+document.getElementById("current_temp").textContent = "90 F"
